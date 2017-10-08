@@ -1,0 +1,31 @@
+{
+  "name": "bucket-mysql",
+  "version": "0.1.0",
+  "description": "A Node.js web framework's plugin, wrapper for mysql operation",
+  "scripts": {
+    "test": "DEBUG=bucket:* ./node_modules/.bin/mocha -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bucket-hat/bucket-mysql.git"
+  },
+  "keywords": [
+    "Node.js",
+    "web framework",
+    "es6/7"
+  ],
+  "author": "lightfish-zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bucket-hat/bucket-mysql/issues"
+  },
+  "homepage": "https://github.com/bucket-hat/bucket-mysql#readme",
+  "dependencies": {
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "debug": "^3.0.1",
+    "eslint": "^4.7.0",
+    "mocha": "^3.4.2"
+  }
+}
